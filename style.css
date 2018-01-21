@@ -1,0 +1,1092 @@
+body
+{
+    font-family: 'Verdana';
+}
+.jaune-bc
+{
+    background-color: #fecb00;
+}
+.jaune
+{
+    color: #fecb00;
+}
+
+.center-block
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*----------------Nav----------------*/
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link
+{
+    color: #fecb00 !important;
+}
+
+.navbar-light .navbar-brand
+{
+    color: darkgray;
+}
+
+.navbar-light .navbar-nav .nav-link
+{
+    color: darkgray;
+}
+
+.navbar-light .navbar-nav .nav-link:hover
+{
+    color: #fecb00;
+}
+
+.navbar-color
+{
+    background: #424242;
+}
+.votre-espace-bloc
+{
+    height: 100%;
+    background-color: #fecb00;
+    color: black !important;
+}
+
+@media screen AND (min-width: 992px)
+{
+    .pipe
+    {
+        color: darkgray;
+        padding-top: 7px;
+    }
+
+}
+
+@media screen AND (max-width: 991px)
+{
+    .pipe
+    {
+        display: none;
+    }
+}
+
+.sous-navbar
+{
+    height: 15px;
+    background-color: #fecb00;
+
+}
+
+.navbar-arrow
+{
+    position: absolute;
+    margin-top: -8px !important;
+    font-size: 20px;
+    color: #fecb00;
+}
+
+@media screen AND (max-width: 1199px)
+{
+    .navbar-arrow
+    {
+        display: none;
+    }
+
+
+}
+
+@media screen AND (min-width: 992px) AND (max-width: 1199px)
+{
+    .votre-espace-text
+    {
+        display: none;
+    }
+
+}
+.searchbar
+{
+    max-width: 70%;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.searchbar-btn
+{
+    border-radius: 10px;
+    width: 50px;
+    background: none;
+    color: black;
+}
+
+.searchbar-btn:hover
+{
+    background: #fecb00;
+}
+
+.btnmail
+{
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background: none;
+}
+
+.btnmail:hover
+{
+    background: #fecb00;
+}
+
+@media screen AND (max-width: 767px)
+{
+    .btnmail-col
+    {
+        display: none;
+    }
+
+    .logo-col
+    {
+        display: none;
+    }
+
+    .navbar2-ctn
+    {
+        display: none;
+    }
+
+    .searchbar
+    {
+        max-width: 100%;
+    }
+}
+
+@media screen AND (min-width: 768px)
+{
+    .divtroggle
+    {
+        display: none;
+    }
+}
+
+.divtroggle hr
+{
+    background: #fecb00;
+}
+
+.fa-envelope
+{
+    color: #fecb00;
+}
+/*------------End-Nav----------------*/
+/*-------------Footer----------------*/
+footer
+{
+    background: #424242;
+    min-height: 200px;
+    margin-top: 30px;
+}
+
+.logo2
+{
+    max-height: 100px;
+}
+
+footer div div div a
+{
+    color: white !important;
+    font-size: 13px;
+
+}
+
+@media screen AND (max-width: 767px)
+{
+    footer div div div
+    {
+        text-align: center !important;
+
+    }
+}
+/*-----------Fin Footer--------------*/
+/*-----------Début index-------------*/
+.nav-tabs
+{
+    border-bottom: 1px solid #fecb00;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link
+{
+    background: whitesmoke;
+    color: #424242;
+    border-bottom: 1px solid #fecb00;
+}
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover
+{
+    color: #fecb00;
+    border-bottom: 1px solid #fecb00;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active
+{
+    background: #fecb00;
+    color: white;
+    border: 1px solid #fecb00;
+    /*box-shadow: 0.5px -0.5px 1px #000;*/
+}
+
+.banniere-logement
+{
+    width: 100%;
+    height: 400px;
+    background: url('img/banniere1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    margin-bottom: -400px;
+
+
+}
+
+.banniere-logement-contenu
+{
+
+    height: 400px;
+    width: 100%;
+    background: none;
+    z-index: 2;
+}
+
+@media screen AND (max-width: 366px)
+{
+
+    .banniere-logement
+    {
+        height: 500px;
+        margin-bottom: -500px;
+
+    }
+
+    .banniere-logement-contenu
+    {
+
+        height: 500px;
+    }
+
+}
+
+.banniere-logement-titre
+{
+    color: white;
+    padding-top: 30px;
+    padding-left: 20px;
+    /*font-weight: bold;*/
+}
+
+.banniere-logement-texte
+{
+    padding-left: 20px;
+    padding-top: 30px;
+    color: black;
+}
+
+.banniere-logement-bouton
+{
+    width: 150px;
+    height: 45px;
+    margin-left: 20px;
+    margin-top: 40px;
+    background: #fecb00;
+    border: none;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.banniere-logement-bouton:hover
+{
+    background: rgba(255,255,255,0.8);
+    color: black;
+    border: 1px solid #fecb00;
+}
+
+
+@media screen AND (max-width: 767px) /*482*/
+{
+    .navbarIndex1-btn
+    {
+        width: 100% !important;
+        text-align: center;
+
+    }
+}
+/*------------Fin index--------------*/
+/*--------index Déménagement---------*/
+.fa-star
+{
+    color: dimgrey;
+}
+.fa-star:hover
+{
+    color: gold;
+}
+
+.star
+{
+    width: 100%;
+    padding-right: 0px !important;
+    margin-right: 0px !important;
+}
+.case1
+{
+    text-decoration: none !important;
+    color: black;
+
+    margin-top: 5%;
+    margin-left: 10%;
+    position: absolute;
+    height: 90%;
+    width: 80%;
+    background-color: lightgrey !important;
+
+}
+.case1:hover
+{
+    color: black;
+    box-shadow: 0px 0px 5px dimgrey;
+}
+
+.case1-title
+{
+    position: absolute;
+    padding-left: 20px;
+    bottom: 20px !important;
+}
+
+.img-tarifs
+{
+    margin-top: 100px;
+    height: 120px;
+}
+
+.case2
+{
+    text-decoration: none !important;
+    color: black;
+
+    margin-top: 5%;
+    margin-left: 0%;
+    position: absolute;
+    height: 250px;
+    width: 80%;
+    background-color: lightgrey !important;
+}
+
+.case2:hover
+{
+    color: black;
+    box-shadow: 0px 0px 5px dimgrey;
+}
+
+.case2-title
+{
+    position: absolute;
+    padding-left: 20px;
+    bottom: 15px !important;
+}
+
+.calendaricon
+{
+    margin-top: 1px;
+    height: 150px;
+}
+
+.case-bottom
+{
+    width: 100%;
+    height: 50px;
+    background: white;
+    position: absolute;
+    bottom: 0;
+    border-left: 2px solid lightgrey;
+    border-right: 2px solid lightgrey;
+    border-bottom: 2px solid lightgrey;
+}
+
+.case3
+{
+    text-decoration: none !important;
+    color: black;
+
+    margin-top: 83%;
+    margin-left: 0%;
+
+    position: absolute;
+
+    height: 250px;
+    width: 80%;
+    background-color: lightgrey !important;
+}
+
+.case3:hover
+{
+    color: black;
+    box-shadow: 0px 0px 5px dimgrey;
+}
+
+.img-camion
+{
+    margin-top: 1px;
+    height: 130px;
+
+}
+
+.img-headphones
+{
+    margin-top: -21px;
+    height: 180px;
+}
+
+.case4
+{
+    text-decoration: none !important;
+    color: black;
+
+    margin-top: 0%;
+    margin-left: 52px;
+    position: absolute;
+    height: 250px;
+    width: 626px;
+    background-color: lightgrey !important;
+
+}
+.case4:hover
+{
+    color: black;
+    box-shadow: 0px 0px 5px dimgrey;
+}
+
+.case4-title
+{
+    position: absolute;
+    padding-left: 20px;
+    top: 70px !important;
+}
+
+.img-groupe
+{
+    margin-top: 0px;
+    height: 170px;
+    margin-left: 300px;
+}
+
+.case5
+{
+    text-decoration: none !important;
+    color: black;
+
+    margin-top: 0%;
+    margin-left:40px;
+    position: absolute;
+    height: 250px;
+    width: 290px;
+    background-color: lightgrey !important;
+
+}
+
+.case5:hover
+{
+    color: black;
+    box-shadow: 0px 0px 5px dimgrey; /*#fecb00*/
+}
+
+.img-chat
+{
+    margin-top: 0px;
+    height: 140px;
+}
+
+@media screen AND (max-width: 1199px)
+{
+    .demenagement-index
+    {
+        display: none;
+    }
+}
+
+@media screen AND (min-width: 1200px)
+{
+    .demenagement-index-petit
+    {
+        display: none;
+    }
+}
+
+.img-icones
+{
+    height: 40px;
+}
+
+.case-mobile
+{
+
+    /*height: 100%;*/
+    margin-bottom: -17px;
+    margin-top: -17px;
+}
+
+.case-mobile:hover
+{
+    background: #fecb00;
+}
+
+.case-mobile-a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.case-mobile-a:hover
+{
+    text-decoration: none;
+    color: black;
+}
+
+/*------Fin index Déménagement-------*/
+/*----------index Logement-----------*/
+
+/* The map */
+svg {
+    height: 100%;
+}
+
+#arrondissements a:hover path {
+    /*fill: #c43e33;*/
+    fill: #fecb00;
+}
+#arrondissements a:hover text {
+    fill: #ffffff;
+}
+
+#arrondissements text {
+    font-size: 20px;
+    font-weight: bold;
+    fill: #585858;
+}
+
+/* The page */
+
+#arr-descriptions {
+    margin-bottom: 7em;
+}
+
+/*
+#arr1
+{
+    fill: lightgrey !important;
+}*/
+
+.bloc-jaune
+{
+    width: 50px;
+    height: 30px;
+    margin-top: 5px;
+    background: #fecb00;
+    border-radius: 2px;
+    border: 1px solid orange;
+}
+
+.bloc-gris
+{
+    width: 50px;
+    height: 30px;
+    margin-top: 5px;
+    background: lightgrey;
+    border-radius: 2px;
+    border: 1px solid gray;
+}
+
+
+#range {
+    align-self: center;
+    padding: 0;
+    height: 4.7em;
+    /*background: linear-gradient(90deg, #d5cebc 1px, transparent 1px) repeat-x 0 2.7em content-box;*/
+    background-size: .59em .9em;
+    font-size: .7em;
+    cursor: pointer;
+    width: 100% !important;
+}
+
+#range:active
+{
+    outline: none !important;
+}
+
+#range,
+#range::-webkit-slider-runnable-track,
+#range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+
+#range::-webkit-slider-thumb {
+    position: relative;
+    margin-left: -0.0625em;
+    margin-top: 0.25em;
+    border: none;
+    border-radius: 50% 50% 0;
+    background: #fd625e;
+    width: 1.25em;
+    height: 1.25em;
+    box-shadow: 1.1875em 1.1875em 0 -0.5625em, 1.25em 1.25em 0 -0.5625em, 1.3125em 1.3125em 0 -0.5625em, 1.375em 1.375em 0 -0.5625em, 1.4375em 1.4375em 0 -0.5625em, 1.5em 1.5em 0 -0.5625em, 1.5625em 1.5625em 0 -0.5625em, 1.625em 1.625em 0 -0.5625em, 1.6875em 1.6875em 0 -0.5625em, 1.75em 1.75em 0 -0.5625em, 1.8125em 1.8125em 0 -0.5625em, 1.875em 1.875em 0 -0.5625em, 1.9375em 1.9375em 0 -0.5625em, 2em 2em 0 -0.5625em, 2.0625em 2.0625em 0 -0.5625em, 2.125em 2.125em 0 -0.5625em, 2.1875em 2.1875em 0 -0.5625em, 2.25em 2.25em 0 -0.5625em, 2.3125em 2.3125em 0 -0.5625em, 2.375em 2.375em 0 -0.5625em;
+    -ms-transform: translate(1px, -1.75888em) rotate(45deg);
+    -moz-transform: translate(1px, -1.75888em) rotate(45deg);
+    -o-transform: translate(1px, -1.75888em) rotate(45deg);
+    -webkit-transform: translate(1px, -1.75888em) rotate(45deg);
+    transform: translate(1px, -1.75888em) rotate(45deg);
+}
+
+#range::-webkit-slider-thumb:after,
+#range /deep/ #thumb:after {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    width: 16.125em;
+    transform-origin: 100% 0;
+    height: 1.75em;
+    box-shadow: inset 0 0.375em currentColor;
+    background: linear-gradient(90deg, currentColor 0.125em, transparent 0.125em) repeat-x 0 100%;
+    background-size: 0.5em 1em;
+    color: #fd625e;
+    content: '';
+}
+
+#range:focus {
+    outline: none !important;
+}
+
+#range:active {
+    outline: none !important;
+}
+
+/*input[type='range'] à la place de #range*/
+
+#range
+{
+    outline: none !important;
+}
+
+#range:active
+{
+    outline: none !important;
+    /*background: red;
+    /*text-decoration: none !important;*/
+}
+
+.bloc-gris-logement
+{
+    width: 100%;
+    height: 700px;
+    background: lightgrey;
+    margin-bottom: 30px;
+    overflow: auto;
+}
+
+.bloc-valider-logement
+{
+    background: #fecb00;
+    width: 100%;
+    border: none;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 55px
+}
+
+.bloc-valider-logement:hover
+{
+    /*background: darkorange;*/
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+    border: 1px solid #fecb00;
+    cursor: pointer;
+}
+
+@media screen AND (min-width: 769px) AND (max-width: 991px)
+{
+    .bloc-valider-logement
+    {
+        margin-left: -40px;
+        margin-top: 45px;
+    }
+}
+@media screen AND (min-width: 992px) AND (max-width: 1199px)
+{
+    .bloc-valider-logement
+    {
+        margin-left: -45px;
+        margin-top: 49px;
+    }
+}
+
+@media screen AND (min-width: 1200px)
+{
+    .bloc-valider-logement
+    {
+        margin-left: -45px;
+    }
+}
+
+.btn-ensavoirplus
+{
+    background: #fecb00;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.btn-ensavoirplus:hover
+{
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+    border: 1px solid #fecb00;
+}
+/*--------Fin index Logement---------*/
+/*-------Service Déménagement--------*/
+.service-demenagement-bloc
+{
+
+}
+
+#range-dmg
+{
+    width: 100% !important;
+}
+
+#ajoutmeuble
+{
+    background: none;
+    border: none;
+}
+
+#ajoutmeuble:hover
+{
+    background: #fecb00;
+    color: white;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.ico-select
+{
+    height: 40px;
+}
+
+#container #map
+{
+    width: 100%;
+    height:200px;
+    margin:auto;
+}
+
+#container #panel
+{
+    height: 100px;
+    overflow: auto;
+}
+
+.btn-itineraire
+{
+    width: 100%;
+    background: #fecb00;
+    border: none;
+    color: white;
+}
+
+.btn-itineraire:hover
+{
+    background: rgba(255,255,255,0);
+    border: 1px solid #fecb00;
+    cursor: pointer;
+    color: black;
+}
+
+.btn-amis-lp
+{
+    margin-top: 20px;
+    height: 40px;
+    width: 90%;
+
+    background: #fecb00;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-amis-lp:hover
+{
+    background: rgba(255,255,255,0);
+    border: 1px solid #fecb00;
+    cursor: pointer;
+    color: black;
+}
+
+.btn-amis-fb
+{
+    height: 40px;
+    width: 90%;
+
+    background: royalblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-amis-fb:hover
+{
+    background: rgba(255,255,255,0);
+    border: 1px solid royalblue;
+    cursor: pointer;
+    color: black;
+}
+
+.btn-prec-gris
+{
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 10px;
+    border: none;
+    width: 130px;
+    text-align: center;
+    cursor: pointer;
+
+    color: white;
+    background-color: darkgrey;
+
+}
+
+.btn-vld-logement
+{
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 10px;
+    border: none;
+    width: 130px;
+    text-align: center;
+    cursor: pointer;
+
+    color: white;
+    background-color: #fecb00;
+
+    margin-left: 30px;
+    margin-right: 70px;
+
+}
+
+.btn-prec-gris:hover
+{
+    background: none;
+    border: 1px solid darkgrey;
+    color: darkgrey;
+}
+
+.btn-vld-logement:hover
+{
+    background: none;
+    border: 1px solid #fecb00;
+    color: #fecb00;
+}
+/*-----Fin Service Déménagement------*/
+/*-----Début Récap Déménagement------*/
+.ctn-recap-1
+{
+    background: whitesmoke;
+    height: 200px;
+    overflow: auto;
+}
+.ctn-recap-2
+{
+    background: #fecb00;
+    height: 200px;
+    /*overflow: auto;*/
+    color: dimgray;
+}
+
+.ctn-recap-3
+{
+    background: whitesmoke;
+    height: 200px;
+    overflow: auto;
+}
+
+.ctn-recap-4
+{
+    background: #fecb00;
+    height: 200px;
+    overflow: auto;
+    color: dimgray;
+}
+
+@media screen AND (max-width: 767px)
+{
+    .ctn-recap-3
+    {
+        height: 350px;
+        text-align: center;
+    }
+}
+
+.truck-recap
+{
+    height: 70%;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+@media screen AND (max-width: 767px)
+{
+    .truck-recap
+    {
+        display: none;
+    }
+}
+
+.demenageurs-recap-txt
+{
+    font-size: 60px;
+    margin-top: 40px;
+    margin-left: -90px;
+}
+
+@media screen AND (min-width: 768px) AND (max-width: 1199px)
+{
+    .demenageurs-recap-txt
+    {
+        margin-left: -30px;
+    }
+}
+
+@media screen AND (max-width: 767px)
+{
+    .demenageurs-recap-txt
+    {
+        margin-left: 0px;
+    }
+
+    .arrow-recap
+    {
+        display: none;
+    }
+
+    .destination-arrivee-txt
+    {
+        padding-left: 90px;
+    }
+
+    .ctn-recap-4
+    {
+        height: 250px;
+    }
+}
+
+.arrow-recap
+{
+    height: 100%;
+}
+
+.destination-origin-txt
+{
+    padding-top: 10px ;
+    padding-left: 90px;
+}
+
+.destination-arrivee-txt
+{
+    padding-top: 10px ;
+}
+
+.ctn-recap-6
+{
+    background: #fecb00;
+    color: dimgray;
+    height: 200px;
+    border-radius: 0 0 1000px 1000px;
+    overflow: hidden;
+}
+
+.btn-recap-event
+{
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+.btn-recap-event:hover
+{
+    background: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+.btn-modif-recap
+{
+    margin-top: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background: #fecb00;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.btn-modif-recap:hover
+{
+    background: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    border: 2px solid #fecb00;
+}
+/*------Fin Récap Déménagement-------*/
+/*-----------Début Forum-------------*/
+
+
+.forum-jaune
+{
+  background: #fecb00;
+    height: 100px;
+    padding-left: 30px;
+    padding-top: 28px;
+    font-weight: bold;
+}
+
+.card-mdf
+{
+    border-radius: 0 !important;
+    border: none;
+
+}
+
+.card-header-mdf
+{
+    border-radius: 0 !important;
+    background-color: lightgrey;
+    height: 60px;
+    overflow: hidden;
+}
+
+.faq-card-title
+{
+    text-decoration: none;
+    color: #424242;
+    /*margin-top: 5px ;*/
+}
+
+.faq-card-title:hover
+{
+    text-decoration: none;
+    color: white;
+}
+/*----------Fin Début Forum----------*/

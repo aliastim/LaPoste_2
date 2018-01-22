@@ -153,7 +153,7 @@
 
                 <div class="col-md-6">
                     <a href="#" class="d-flex justify-content-center" style="text-decoration: none;"><button class="btn-amis-lp">Créer un événement La Poste</button></a><br>
-                    <a href="#" class="d-flex justify-content-center" style="text-decoration: none;"><button class="btn-amis-fb">Créer un événement sur Facebook</button></a>
+                    <a href="http://www.facebook.com" target="_blank" class="d-flex justify-content-center" style="text-decoration: none;"><button class="btn-amis-fb">Créer un événement sur Facebook</button></a>
                 </div>
                 <div class="col-md-6"></div>
             </div>

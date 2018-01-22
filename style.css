@@ -1077,6 +1077,14 @@ svg {
     overflow: hidden;
 }
 
+.card-header-mdf-petit
+{
+    border-radius: 0 !important;
+    background-color: lightgrey;
+    height: 40px;
+    overflow: hidden;
+}
+
 .faq-card-title
 {
     text-decoration: none;

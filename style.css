@@ -1097,4 +1097,151 @@ svg {
     text-decoration: none;
     color: white;
 }
-/*----------Fin Début Forum----------*/
+/*-------------Fin Forum-------------*/
+/*------------Début Event------------*/
+
+.evt-form-cadre
+{
+    background-color: lightgrey;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.evt-form-input
+{
+    border: 1px solid grey;
+    border-radius: 8px;
+    height: 40px;
+    margin-bottom: 10px;
+    width: 75%;
+}
+
+.evt-form-input-2
+{
+    border: 1px solid grey;
+    border-radius: 8px;
+    height: 40px;
+    width: 50%;
+}
+
+.evt-form-textarea
+{
+    border: 1px solid grey;
+    border-radius: 8px;
+    height: 200px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.evt-form-label
+{
+    margin-top: 8px;
+}
+
+.evt-form-select
+{
+    /* styling */
+    background-color: white;
+    border: thin solid grey;
+    border-radius: 8px;
+    display: inline-block;
+    font: inherit;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+
+    /* reset */
+
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.evt-form-select {
+    background-image:
+            linear-gradient(45deg, transparent 50%, gray 50%),
+            linear-gradient(135deg, gray 50%, transparent 50%),
+            linear-gradient(to right, #ccc, #ccc);
+    background-position:
+            calc(100% - 20px) calc(1em + 2px),
+            calc(100% - 15px) calc(1em + 2px),
+            calc(100% - 2.5em) 0.5em;
+    background-size:
+            5px 5px,
+            5px 5px,
+            1px 1.5em;
+    background-repeat: no-repeat;
+}
+
+.evt-form-select:focus {
+    background-image:
+            linear-gradient(45deg, green 50%, transparent 50%),
+            linear-gradient(135deg, transparent 50%, green 50%),
+            linear-gradient(to right, #ccc, #ccc);
+    background-position:
+            calc(100% - 15px) 1em,
+            calc(100% - 20px) 1em,
+            calc(100% - 2.5em) 0.5em;
+    background-size:
+            5px 5px,
+            5px 5px,
+            1px 1.5em;
+    background-repeat: no-repeat;
+    border-color: grey;
+    outline: 0;
+}
+
+.evt-form-btn
+{
+    background-color: #fecb00;
+    color: white;
+    border: none;
+    margin-right: -10px;
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.evt-form-btn:hover
+{
+    background: none;
+    border: 1px solid #fecb00;
+    color: #fecb00;
+    cursor: pointer;
+}
+
+
+.evt-form-btn2
+{
+    background-color: #fecb00;
+    color: white;
+    border: none;
+    margin-right: -10px;
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.evt-form-btn2:hover
+{
+    background: none;
+    border: 1px solid #fecb00;
+    color: #fecb00;
+    cursor: pointer;
+}
+
+.evt-liste-bloc
+{
+    width: 100%;
+    height: 150px;
+    background: whitesmoke;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+    overflow: auto;
+}

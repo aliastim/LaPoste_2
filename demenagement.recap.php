@@ -81,7 +81,10 @@ if (isset($_GET['inlineRadioOptions'])  AND isset($_GET['orderdate']) AND isset(
                 <p style="font-size: 50px; margin-top: 50px;">Votre Budget : <B><?php echo $budget; ?></B>€</p>
             </div>
             <div class="ctn-recap-6 text-center">
-               <a href="#"><button class="btn-recap-event">Créer un événement La Poste</button></a>
+                <form method="get" action="dle.index.php" style="height: 100%;">
+                    <input type="hidden" name="evt" value="1">
+                    <button class="btn-recap-event">Créer un événement La Poste</button>
+                </form>
             </div>
 
             <div class="d-flex justify-content-center">

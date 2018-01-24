@@ -16,6 +16,14 @@ if (isset($_GET['dmg']))
     $dmg = 0;
 }
 
+if (isset($_GET['evt']))
+{
+    $evt = $_GET['evt'];
+}else
+{
+    $evt = 0;
+}
+
 ?>
 <br><br>
 <!-- https://getbootstrap.com/docs/4.0/components/navs/ -->
@@ -30,6 +38,9 @@ if (isset($_GET['dmg']))
         </li>
         <li class="nav-item navbarIndex1-btn">
             <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="true">Forum</a>
+        </li>
+        <li class="nav-item navbarIndex1-btn">
+            <a class="nav-link" id="forum-tab" data-toggle="tab" href="#events" role="tab" aria-controls="events" aria-selected="true">Événements</a>
         </li>
     </ul>
     <div class="tab-content" id="myTabContent">
@@ -56,6 +67,21 @@ if (isset($_GET['dmg']))
         <div class="tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab">
 
             <?php include 'faq.php' ?>
+
+        </div>
+        <div class="tab-pane fade" id="events" role="tabpanel" aria-labelledby="forum-tab">
+
+            <?php
+
+            if($evt == 1)
+            {
+                include 'events.form.php';
+            }
+            else
+            {
+                include 'events.php';
+            }
+            ?>
 
         </div>
     </div>
